@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>APOLO Gym</title>
+		<link
+			rel="preconnect"
+			href="https://fonts.googleapis.com"
+		/>
+		<link
+			rel="preconnect"
+			href="https://fonts.gstatic.com"
+			crossorigin
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;900&display=swap"
+			rel="stylesheet"
+		/>
+
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="./styles/style.css"
+		/>
+		<script
+			src="https://kit.fontawesome.com/e3fdf6ef30.js"
+			crossorigin="anonymous"
+		></script>
+	</head>
+	<body>
+		<header class="header-container section-padding-x">
+			<a
+				href="/"
+				class="header-logo-container"
+			>
+				<div class="header-logo">
+					<img src="./assets/images/apolo-gym-logo.jpg" />
+				</div>
+			</a>
+			<nav class="desktop-navbar">
+				<a href="#home">INICIO</a>
+				<a href="#service">SERVICIOS</a>
+				<a href="#trainers">INSTRUCTORES</a>
+				<a href="#testimonial">TESTIMONIOS</a>
+				<a href="#contact-us">CONTACTO</a>
+			</nav>
+			<button
+				type="button"
+				class="whatsapp-button"
+			>
+				<i class="fa-brands fa-whatsapp"></i>WhatsApp
+			</button>
+		</header>
+		<nav class="mobile-navbar">
+			<a href="#home"><i class="fa-solid fa-house"></i>INICIO</a>
+			<a href="#service"><i class="fa-solid fa-dumbbell"></i>SERVICIOS</a>
+			<a href="#trainers"
+				><i class="fa-solid fa-people-group"></i>INSTRUCTORES</a
+			>
+			<a href="#testimonial"><i class="fa-solid fa-comments"></i>TESTIMONIOS</a>
+			<a href="#contact-us"><i class="fa-solid fa-address-book"></i>CONTACTO</a>
+		</nav>
+		<main>
+			<section
+				id="home"
+				class="home-background"
+			>
+				<div class="section-padding-x section-padding-y home-container">
+					<div class="home-left">
+						<h1 class="home-left-title">
+							<span>APOLO GYM</span><br />
+							CLUB DE AMIGOS
+						</h1>
+						<div class="home-left-content">
+							<p>
+								El entrenamiento en el gimnasio es un enfoque estructurado y
+								disciplinado del ejercicio físico que se centra en la fuerza, la
+								resistencia y la mejora general del estado físico.
+							</p>
+							<a href="#contact-us">
+								<button
+									type="button"
+									class="main-button"
+								>
+									Más Información
+								</button></a
+							>
+							<article class="home-left-numbers">
+								<p><span>1+</span><br />Años de experiencia</p>
+								<div></div>
+								<p><span>120+</span><br />Socios inscriptos</p>
+								<div></div>
+								<p><span>120+</span><br />Socios satisfechos</p>
+							</article>
+							<article>
+								<h3>Calle 149 970 entre 9 y 10 | BERAZATEGUI</h3>
+								<h3>PCIA. DE BUENOS AIRES | ARGENTINA</h3>
+								<p>Lunes a viernes de 7 a 22 hs.</p>
+								<p>Sábados de 9 a 14 hs.</p>
+							</article>
+						</div>
+					</div>
+					<div class="home-image">
+						<h2 class="home-image-text">LEVEL <br />UP</h2>
+						<img src="./assets/images/home-man.png" />
+					</div>
+				</div>
+			</section>
+			<section id="service">
+				<div class="section-padding-x section-padding-y">
+					<div class="section-title">
+						<h2>POR QUÉ <span>ELEGIRNOS</span></h2>
+						<p>
+							Los entrenamientos en nuestro gimnasio ofrecen una experiencia
+							versátil y personalizable, que permite a cada persona establecer
+							objetivos de fitness específicos.
+						</p>
+					</div>
+					<div class="service-content">
+						<template id="service-template"
+							><article class="service-article">
+								<h5></h5>
+								<span></span>
+								<p></p>
+							</article>
+						</template>
+					</div>
+				</div>
+				<div class="section-padding-x section-padding-y experience">
+					<div class="section-subtitle">
+						<h3>TENEMOS <br /><span>EXPERIENCIA</span></h3>
+						<p>
+							In quisque nunc dictumst etiam pellentesque et. Vel malesuada diam
+							lorem tellus. Amet mauris feugiat ipsum natoque odio donec. Sit at
+							lacus consequat justo odio condimentum dui. Faucibus id blandit
+							feugiat mi tellus sit etiam donec aliquam. Dictumst egestas ut
+							facilisi vel.
+						</p>
+						<p>
+							Sem consequat fermentum pellentesque risus purus quis gravida.
+							Nulla porttitor ultrices facilisis non commodo diam morbi cursus
+							eu. Semper ut in mauris gravida id cursus urna. Magnis vulputate
+							orci risus felis eget lectus morbi. Et cursus mauris condimentum
+							pretium arcu sed dignissim.
+						</p>
+
+						<a href="#contact-us">
+							<button
+								type="button"
+								class="main-button"
+							>
+								Más Información
+							</button></a
+						>
+					</div>
+					<div class="experience-img-container">
+						<div class="red-rectangle"></div>
+						<div class="white-rectangle"></div>
+						<img
+							src="./assets/images/experience-img.png"
+							alt="gym"
+						/>
+					</div>
+				</div>
+			</section>
+			<section
+				id="trainers"
+				class="section-padding-y"
+			>
+				<div>
+					<div class="section-title section-padding-x">
+						<h2>INSTRUCTORES <br /><span>PROFESIONALES</span></h2>
+						<p>
+							Nuestros instructores realizan un seguimiento personalizado de las
+							rutinas
+						</p>
+					</div>
+					<div class="trainers-slider section-padding-x">
+						<template id="trainers-slider-template">
+							<article class="trainers-slider-card">
+								<img
+									src=""
+									alt="Slider image"
+									class="trainers-slider-image"
+								/>
+								<div class="trainers-slider-details">
+									<h4></h4>
+									<p>Rate trainer:</p>
+									<img
+										src="./assets/images/stars.png"
+										alt="stars"
+										class="trainers-sliders-stars"
+									/>
+								</div>
+							</article>
+						</template>
+					</div>
+					<div class="trainers-slider-btns section-padding-x">
+						<button
+							id="left-btn"
+							class="slider-btn"
+						>
+							<i class="fa-solid fa-chevron-left"></i></button
+						><button
+							id="right-btn"
+							class="slider-btn"
+						>
+							<i class="fa-solid fa-chevron-right"></i>
+						</button>
+					</div>
+				</div>
+			</section>
+			<section
+				id="testimonial"
+				class="section-padding-x section-padding-y"
+			>
+				<div class="section-title">
+					<h2>QUÉ DICEN <span>NUESTROS CLIENTES</span> DE NOSOTROS</h2>
+				</div>
+				<div class="slider-container">
+					<div class="testimonial-slider">
+						<template id="testimonial-slider-template">
+							<article class="testimonial-slider-card section-padding-x">
+								<p></p>
+								<img
+									src=""
+									alt="stars"
+									class="stars"
+								/>
+								<h2></h2>
+								<img
+									class="testimonial-card-image"
+									src=""
+									alt="slide-image"
+								/>
+							</article>
+						</template>
+						<div class="testimonial-slider-btns">
+							<button class="slider-btn-2 left-btn-2">
+								<i class="fa-solid fa-chevron-left"></i></button
+							><button class="slider-btn-2 right-btn-2">
+								<i class="fa-solid fa-chevron-right"></i>
+							</button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section
+				id="contact-us"
+				class="section-padding-x section-padding-y"
+			>
+				<div class="contact">
+					<div class="contact-form">
+						<div class="section-subtitle">
+							<h3>
+								REALIZÁ TU CONSULTA <br /><span>Y COMENZÁ A ENTRENAR</span>
+							</h3>
+							<p>Sacate todas las dudas o consultá precios y promociones</p>
+						</div>
+						<form>
+							<div class="grid-form">
+								<input
+									class="input-1"
+									type="text"
+									name="name"
+									id="name"
+									placeholder="Nombre..."
+								/>
+								<input
+									class="input-2"
+									type="tel"
+									name="tel"
+									id="tel"
+									placeholder="Email..."
+								/>
+								<input
+									class="input-3"
+									type="email"
+									name="email"
+									id="email"
+									placeholder="Escribí tu consulta..."
+								/>
+							</div>
+							<input
+								type="submit"
+								class="main-button"
+								value="ENVIAR"
+							/>
+						</form>
+					</div>
+					<div class="contact-image">
+						<img
+							src="./assets/images/contacts-image.png"
+							alt="man"
+						/>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<div class="footer-content section-padding-x">
+				<div class="footer-left">
+					<div class="footer-logo-container">
+						<div class="footer-logo">
+							<img src="./assets/images/apolo-gym-logo.jpg" />
+						</div>
+					</div>
+					<div class="footer-left-address">
+						<h3>Calle 149 970 entre 9 y 10 | BERAZATEGUI</h3>
+						<h3>PCIA. DE BUENOS AIRES | ARGENTINA</h3>
+						<p>Lunes a viernes de 7 a 22 hs.</p>
+						<p>Sábados de 9 a 14 hs.</p>
+					</div>
+				</div>
+				<div class="footer-right">
+					<button
+						type="button"
+						class="main-button"
+					>
+						<i class="fa-solid fa-location-dot"></i>Cómo llegar
+					</button>
+					<button
+						type="button"
+						class="main-button"
+					>
+						<i class="fa-brands fa-whatsapp"></i>Enviar WhatsApp
+					</button>
+
+					<div class="footer-media">
+						<button><i class="fa-brands fa-instagram"></i></button>
+						<button><i class="fa-brands fa-facebook-f"></i></button>
+					</div>
+				</div>
+			</div>
+			<div class="footer-reserved">
+				<p>Privacy | Términos y condiciones</p>
+				<p>Ⓒ 2025 Derechos reservados.</p>
+				<p>Realizado por ejspinelli.coder@gmail.com</p>
+			</div>
+		</footer>
+		<button
+			type="button"
+			class="top-btn hidden-btn"
+		>
+			<i class="fa-solid fa-arrow-up-long"></i>
+		</button>
+		<script src="./js/main.js"></script>
+	</body>
+</html>
